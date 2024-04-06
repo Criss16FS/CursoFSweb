@@ -1,7 +1,0 @@
-paleta de colores :
-Azul Principal 500 : #209fe9
-Azul Secundario 600 : #0977c0 
-Azul Alternativo 300 : #82caf7
-Amarillo Principal 400 : #fff024
-Amarillo Secundario 500 : #efd503
-Amarillo Alternativo 300 : #fffc43
