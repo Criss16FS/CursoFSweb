@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <meta name="description" content="Desarrollo Web en Santa Marta">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <section class="contenedor-header">
+        <header class="header">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/isotipo.png" alt="logo CJ ByteCraft" class="logo__img">
+                </a>
+            </div>
+
+            <div class="contenedor-menu">
+                <nav class="menu">
+                    <a href="index.html" class="menu__enlace">Inicio</a>
+                    <a href="sobre-mi.html" class="menu__enlace">Sobre Mi</a>
+                    <a href="servicios.html" class="menu__enlace enlace--activo">Servicios</a>
+                    <a href="portafolio.html" class="menu__enlace">Portafolio</a>
+                    <a href="contacto.html" class="menu__enlace">Contacto</a>
+                </nav>
+                <button id="btn-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="40"
+                        height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 6l16 0" />
+                        <path d="M4 12l16 0" />
+                        <path d="M4 18l16 0" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Pop-up de menú -->
+            <div id="popup-menu" class="popup-menu">
+                <div class="popup-menu__contenido">
+
+                    <button id="btn-cerrar"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-x" width="40" height="40" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="#131313" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M18 6l-12 12" />
+                            <path d="M6 6l12 12" />
+                        </svg></button>
+                    <h4 class="menu__titulo">Menú</h4>
+                    <nav class="menu-popup">
+                        <a href="index.html" class="menu__enlace">Inicio</a>
+                        <a href="sobre-mi.html" class="menu__enlace">Sobre Mi</a>
+                        <a href="servicios.html" class="menu__enlace">Servicios</a>
+                        <a href="portafolio.html" class="menu__enlace">Portafolio</a>
+                        <a href="contacto.html" class="menu__enlace">Contacto</a>
+                    </nav>
+                </div>
+            </div>
+
+
+
+        </header>
+
+    </section>
+
+    <main class="contenedor servicios">
+
+        <div class="servicios__presentacion centrar-texto">
+            <h1 class="servicios__titulo">Explora Nuestros Servicios</h1>
+            <p>Bienvenido a nuestra página de servicios, donde puedes descubrir cómo podemos ayudarte a impulsar tu
+                presencia en línea. En CJ ByteCraft, nos enorgullecemos de ofrecer una gama completa de soluciones
+                digitales diseñadas para satisfacer tus necesidades específicas.</p>
+        </div>
+
+        <div class="contenedor-servicios">
+
+            <div class="servicio servicio--uno">
+                <div class="servicio__info">
+                    <h2 class="servicio__titulo centrar-texto">Desarrollo Web</h2>
+                    <p class="servicio__parrafo">En CJ ByteCraft, ofrecemos servicios de desarrollo web totalmente
+                        personalizados para satisfacer las
+                        necesidades únicas de tu negocio. Desde la creación de sitios web informativos hasta el
+                        desarrollo
+                        de
+                        complejas plataformas de comercio electrónico, nuestro equipo de expertos en desarrollo web se
+                        encargará
+                        de cada aspecto del proceso. Utilizamos las últimas tecnologías y prácticas de desarrollo para
+                        garantizar que tu sitio web sea moderno, funcional y adaptable a cualquier dispositivo. Ya sea
+                        que
+                        estés
+                        comenzando desde cero o buscando actualizar un sitio web existente, estamos aquí para hacer que
+                        tu
+                        visión cobre vida en línea.</p>
+                </div>
+
+
+                <div class="servicio__img"><img src="img/Portatil-1.jpg" alt=""></div>
+
+                <div class="servicio__list">
+                    <ul class="servicio__list--items">
+                        <h4 class="centrar-texto">Beneficios de elegirnos para el desarrollo web</h4>
+                        <li>Soluciones personalizadas adaptadas a tus necesidades y objetivos específicos.</li>
+                        <li>Diseños modernos y atractivos que capturan la esencia de tu marca.</li>
+                        <li>Funcionalidad avanzada y facilidad de uso para una experiencia de usuario excepcional.</li>
+                        <li>Integración de las últimas tecnologías y tendencias de desarrollo web para mantener tu sitio
+                            web
+                            relevante y competitivo.</li>
+                        <li>Soporte continuo y mantenimiento para garantizar el rendimiento óptimo a largo plazo de tu
+                            sitio
+                            web.</li>
+                    </ul>
+                </div><!-- Fin lista-->
+            </div> <!-- Fin Servicio uno-->
+
+            <div class="servicio servicio--dos">
+
+                <div class="servicio__info">
+                    <h2 class="servicio__titulo centrar-texto"> Diseño Web</h2>
+                    <p class="servicio__parrafo">En CJ ByteCraft, entendemos la importancia del diseño web en la
+                        creación de
+                        una impresión duradera en tus visitantes en línea. Nuestro equipo de diseñadores expertos
+                        trabaja en
+                        estrecha colaboración contigo para crear un diseño web que refleje la identidad única de tu
+                        marca y
+                        atraiga a tu audiencia objetivo. Desde el diseño de la interfaz de usuario hasta la selección de
+                        colores y tipografías, cada detalle se cuida meticulosamente para garantizar una experiencia
+                        visualmente impactante y cohesiva. Nos esforzamos por crear diseños que no solo sean
+                        estéticamente
+                        agradables, sino también intuitivos y fáciles de usar para maximizar la participación del
+                        usuario y
+                        mejorar las conversiones.</p>
+                </div>
+
+                <div class="servicio__img"><img src="img/Portatil-2.jpg" alt=""></div>
+                <div class="servicio__list">
+                    <ul class="servicio__list--items">
+                        <h4 class="centrar-texto">Beneficios de elegirnos para el diseño web</h4>
+
+                        <li>Diseños personalizados que destacan la identidad y los valores de tu marca.</li>
+                        <li>Enfoque centrado en el usuario para garantizar una experiencia de navegación intuitiva y
+                            satisfactoria.</li>
+                        <li>Integración de prácticas de diseño responsivo para garantizar que tu sitio web se vea y
+                            funcione
+                            de manera óptima en todos los dispositivos.</li>
+                        <li>Colaboración estrecha y comunicación abierta para asegurar que tus necesidades y
+                            expectativas se
+                            cumplan en cada etapa del proceso de diseño.</li>
+                        <li>Entrega oportuna y profesional para que tu sitio web esté listo para lanzarse según lo
+                            programado.</li>
+                    </ul>
+                </div> <!-- Fin lista-->
+            </div> <!-- Fin Servicio dos-->
+
+            <div class="servicio servicio--tres">
+                <div class="servicio__info">
+                    <h2 class="servicio__titulo centrar-texto">Optimización de Motores de Búsqueda (SEO)</h2>
+                    <p class="servicio__parrafo">En CJ ByteCraft, entendemos que tener un sitio web impresionante no es
+                        suficiente si no se puede encontrar en línea. Es por eso que ofrecemos servicios completos de
+                        optimización para motores de búsqueda (SEO) diseñados para mejorar la visibilidad y el ranking
+                        de tu
+                        sitio web en los resultados de búsqueda. Nuestro enfoque en SEO se basa en estrategias probadas
+                        y
+                        éticas que ayudan a aumentar el tráfico orgánico, generar leads de calidad y mejorar la
+                        visibilidad
+                        de tu marca en línea. Desde la investigación de palabras clave hasta la optimización técnica y
+                        la
+                        creación de contenido de calidad, nos aseguramos de que tu sitio web esté preparado para
+                        competir en
+                        el competitivo mundo de los motores de búsqueda.</p>
+                </div>
+
+
+                <div class="servicio__img"><img src="img/Portatil-3.jpg" alt=""></div>
+                <div class="servicio__list">
+                    <ul class="servicio__list--items">
+                        <h4 class="centrar-texto">Beneficios de elegirnos para la optimización de motores de búsqueda
+                            (SEO)
+                        </h4>
+
+                        <li>Estrategias de SEO personalizadas que se adaptan a las necesidades específicas de tu negocio
+                            y
+                            tu audiencia.</li>
+                        <li>Mejora del ranking en los motores de búsqueda para aumentar la visibilidad y la autoridad en
+                            línea de tu sitio web.</li>
+                        <li>Generación de tráfico orgánico de alta calidad que se traduce en leads y conversiones
+                            reales.
+                        </li>
+                        <li>Análisis continuo y optimización para mantener tu sitio web actualizado con los cambios en
+                            los
+                            algoritmos de los motores de búsqueda.</li>
+                        <li>Transparencia y comunicación abierta para que estés al tanto de los resultados y el progreso
+                            de
+                            tu estrategia de SEO en todo momento.</li>
+                    </ul>
+                </div> <!-- Fin lista-->
+            </div> <!-- Fin Servicio tres-->
+
+        </div> <!-- Fin Servicios -->
+
+
+
+
+    </main> <!-- Fin Main-->
+
+    <section class="section-call contenedor">
+
+        <p class="section-call__parrafo">¡Descubre más sobre nuestro trabajo! Explora nuestro portafolio para ver
+            ejemplos de proyectos en los que hemos trabajado y cómo hemos ayudado a otras empresas a alcanzar el éxito
+            en línea. ¡Haz clic aquí para comenzar a explorar!</p>
+        <h4 class="section-call__titulo">¿Vamos?</h4>
+        <a href="portafolio.html" class="boton boton--primario">Si, llevame allá</a>
+
+    </section>
+
+
+    <footer class="footer contenedor">
+
+        <div class="footer__logo">
+            <a href="index.html">
+                <img class="footer__logo--img" src="img/Logotipo.png" alt="logotipo CJ ByteCraft">
+            </a>
+        </div>
+
+        <div class="footer__copy">
+            <p>© Todos los derechos reservador | <a class="footer__copy--link" target="_blank"
+                    href="https://www.linkedin.com/in/cjap16/"> Powered By Cristian Avila</a></p>
+
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

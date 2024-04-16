@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <meta name="description" content="Desarrollo Web en Santa Marta">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <section class="contenedor-header">
+        <header class="header">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/isotipo.png" alt="logo CJ ByteCraft" class="logo__img">
+                </a>
+            </div>
+
+            <div class="contenedor-menu">
+                <nav class="menu">
+                    <a href="index.html" class="menu__enlace">Inicio</a>
+                    <a href="sobre-mi.html" class="menu__enlace">Sobre Mi</a>
+                    <a href="servicios.html" class="menu__enlace">Servicios</a>
+                    <a href="portafolio.html" class="menu__enlace">Portafolio</a>
+                    <a href="contacto.html" class="menu__enlace enlace--activo">Contacto</a>
+                </nav>
+                <button id="btn-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="40"
+                        height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 6l16 0" />
+                        <path d="M4 12l16 0" />
+                        <path d="M4 18l16 0" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Pop-up de menú -->
+            <div id="popup-menu" class="popup-menu">
+                <div class="popup-menu__contenido">
+
+                    <button id="btn-cerrar"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-x" width="40" height="40" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="#131313" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M18 6l-12 12" />
+                            <path d="M6 6l12 12" />
+                        </svg></button>
+                    <h4 class="menu__titulo">Menú</h4>
+                    <nav class="menu-popup">
+                        <a href="index.html" class="menu__enlace">Inicio</a>
+                        <a href="sobre-mi.html" class="menu__enlace">Sobre Mi</a>
+                        <a href="servicios.html" class="menu__enlace">Servicios</a>
+                        <a href="portafolio.html" class="menu__enlace">Portafolio</a>
+                        <a href="contacto.html" class="menu__enlace">Contacto</a>
+                    </nav>
+                </div>
+            </div>
+
+
+
+        </header>
+    </section>
+
+    <main class="contacto-main">
+        <div class="contacto__txt">
+            <h1 class="contacto__txt--titulo">¡Ponte en Contacto!</h1>
+            <p class="contacto__txt--parrafo"></p>
+        </div>
+
+        <form class="formulario-contacto">
+
+            <div class="campo-formulario">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input class="campo__field " type="text" placeholder="Tu nombre" id="nombre">
+            </div>
+
+            <div class="campo-formulario">
+                <label class="campo__label" for="email">E-mail</label>
+                <input class="campo__field " type="email" placeholder="Tu Email" id="email">
+            </div>
+
+            <div class="campo-formulario">
+                <label class="campo__label" for="telefono">Telefono</label>
+                <input class="campo__field " type="tel" placeholder="Tu Telefono" id="telefono">
+            </div>
+
+            <div class="campo-formulario">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea class="campo__field campo__field--textarea" type="textarea" id="mensaje"
+                    placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+
+            <div class="campo-formulario campo--boton">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+
+        </form>
+
+        <div class="contacto__txt">
+            <p class="contacto__txt--parrafo">¡No dudes en contactarnos para discutir tu proyecto! Estamos aquí para
+                ayudarte a alcanzar tus objetivos en línea. Completa el formulario de contacto o utiliza la información
+                proporcionada para comunicarte con nosotros. ¡Esperamos con ansias trabajar contigo!</p>
+        </div>
+    </main>
+
+
+    <footer class="footer contenedor">
+
+        <div class="footer__logo">
+            <a href="index.html">
+                <img class="footer__logo--img" src="img/Logotipo.png" alt="logotipo CJ ByteCraft">
+            </a>
+        </div>
+
+        <div class="footer__copy">
+            <p>© Todos los derechos reservador | <a class="footer__copy--link" target="_blank"
+                    href="https://www.linkedin.com/in/cjap16/"> Powered By Cristian Avila</a></p>
+
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

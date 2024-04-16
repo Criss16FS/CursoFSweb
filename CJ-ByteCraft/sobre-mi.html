@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mi</title>
+    <meta name="description" content="Desarrollo Web en Santa Marta">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <section class="contenedor-header">
+        <header class="header">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/isotipo.png" alt="logo CJ ByteCraft" class="logo__img">
+                </a>
+            </div>
+
+            <div class="contenedor-menu">
+                <nav class="menu">
+                    <a href="index.html" class="menu__enlace">Inicio</a>
+                    <a href="sobre-mi.html" class="menu__enlace enlace--activo">Sobre Mi</a>
+                    <a href="servicios.html" class="menu__enlace">Servicios</a>
+                    <a href="portafolio.html" class="menu__enlace">Portafolio</a>
+                    <a href="contacto.html" class="menu__enlace">Contacto</a>
+                </nav>
+                <button id="btn-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="40"
+                        height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 6l16 0" />
+                        <path d="M4 12l16 0" />
+                        <path d="M4 18l16 0" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Pop-up de menú -->
+            <div id="popup-menu" class="popup-menu">
+                <div class="popup-menu__contenido">
+
+                    <button id="btn-cerrar"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-x" width="40" height="40" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="#131313" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M18 6l-12 12" />
+                            <path d="M6 6l12 12" />
+                        </svg></button>
+                    <h4 class="menu__titulo">Menú</h4>
+                    <nav class="menu-popup">
+                        <a href="index.html" class="menu__enlace">Inicio</a>
+                        <a href="sobre-mi.html" class="menu__enlace">Sobre Mi</a>
+                        <a href="servicios.html" class="menu__enlace">Servicios</a>
+                        <a href="portafolio.html" class="menu__enlace">Portafolio</a>
+                        <a href="contacto.html" class="menu__enlace">Contacto</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+    </section>
+
+    <main class="contenedor sobreMi">
+        <h1 class="sobreMi__titulo">Sobre Mi</h1>
+
+        <div class="sobreMi-grid">
+            <div class="sobreMi__txt sobreMi__txt--">
+                <p>¡Hola! Soy Cristian Avila, un estudiante de Ingeniería de Sistemas con una pasión por el desarrollo
+                    web
+                    y la optimización para motores de búsqueda (SEO). Con sólidos conocimientos en WordPress, Elementor
+                    y Woocommerce, estoy dedicado a crear sitios web funcionales y atractivos que destaquen en línea.
+                </p>
+
+                <p>Desde que inicié mi viaje en este apasionante campo, he dedicado incontables horas a explorar las
+                    últimas tendencias y tecnologías en el desarrollo web. Mi especialización se centra en plataformas
+                    como WordPress, Elementor y Woocommerce, donde he adquirido habilidades avanzadas para construir
+                    sitios web que no solo sean visualmente atractivos, sino también altamente funcionales y eficientes.
+                </p>
+            </div>
+
+            <div class="sobreMi__img">
+                <img src="img/Criss.jpg" alt="">
+            </div>
+
+            <div class="sobreMi__list">
+
+                <ul class="sobreMi__list--skills">
+                    <h4>Skills</h4>
+                    <li>WordPress</li>
+                    <li>Elementor</li>
+                    <li>Woocommerce</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li> PHP</li>
+                    <li>SEO</li>
+                </ul>
+
+                <ul class="sobreMi__list--educacion">
+                    <h4>Cursos</h4>
+                    <li>Introducción al desarrollo web PHP - Domestika</li>
+                    <li>Creación de una web con WordPress - Domestika</li>
+                    <li>Introducción al diseño UX - Domestika</li>
+                    <li>SEO y SEM: posicionamiento en Google - Domestika</li>
+                    <li>Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL - Udemy (en desarrollo)</li>
+                </ul>
+
+                <ul class="sobreMi__list--educacion">
+                    <h4>Educación</h4>
+                    <li>Universidad del Magdalena: <span>Ingeniería de Sistemas</span></li>
+                </ul>
+
+
+            </div>
+
+            <div class="sobreMi__txt sobreMi__txt--pasion">
+                <h4>Mis Pasiones</h4>
+                <p>Desde que comencé mi viaje en el mundo del desarrollo web, me he apasionado por explorar nuevas
+                    tecnologías y técnicas para mejorar la experiencia del usuario y aumentar la visibilidad en
+                    línea.
+                    Mi compromiso con el aprendizaje continuo me impulsa a mantenerme al día con las últimas
+                    tendencias
+                    y mejores prácticas en la industria.</p>
+            </div>
+
+            <div class="sobreMi__txt sobreMi__txt--enfoque">
+                <h4>Mi Enfoque</h4>
+                <p>Creo en la importancia de entender las necesidades de mis clientes y trabajar en estrecha
+                    colaboración con ellos para transformar sus visiones en realidad digital. Ya sea que estés
+                    buscando
+                    crear un sitio web desde cero, mejorar tu presencia en línea o aumentar tu ranking en los
+                    motores de
+                    búsqueda, estoy aquí para ayudarte a alcanzar tus objetivos digitales.</p>
+            </div>
+
+            <div class="carrusel-sobreMi">
+
+                <div class="slide-sobreMi">
+                    <div class="slide-sobreMi__img">
+                        <img src="img/freelancer.png" alt="">
+                    </div>
+                </div>
+
+                <div class="slide-sobreMi">
+                    <div class="slide-sobreMi__img">
+                        <img src="img/blogCafe.png" alt="">
+                    </div>
+                </div>
+
+                <div class="slide-sobreMi">
+                    <div class="slide-sobreMi__img">
+                        <img src="img/tienda.png" alt="">
+                    </div>
+                </div>
+
+                <div class="slide-sobreMi">
+                    <div class="slide-sobreMi__img">
+                        <img src="img/cj-bytecraft.png" alt="">
+                    </div>
+                </div>
+
+                <div class="slide-sobreMi">
+                    <div class="slide-sobreMi__img">
+                        <img src="img/Cj-Garden.png" alt="">
+                    </div>
+                </div>
+
+                <div class="slide-sobreMi">
+                    <div class="slide-sobreMi__img">
+                        <img src="img/CJ-ocean.png" alt="">
+                    </div>
+                </div>
+
+                <div class="slide-sobreMi">
+                    <div class="slide-sobreMi__img">
+                        <img src="img/Clinica.png" alt="">
+                    </div>
+                </div>
+
+            </div> <!-- Fin carrusel-->
+
+            <div class="sobreMi__txt sobreMi__txt--conclusion">
+                <h4>Colaboración y Resultados</h4>
+                <p>En CJ ByteCraft, me enorgullece ofrecer soluciones digitales de alta calidad que no solo cumplan,
+                    sino que superen las expectativas de mis clientes. Mi objetivo es proporcionar resultados
+                    tangibles
+                    y duraderos que impulsen el éxito de tu negocio en línea.</p>
+
+                <p>Trabajo estrechamente con mis clientes desde el inicio del proyecto hasta la entrega final,
+                    asegurándome de comprender completamente sus objetivos y necesidades únicas. Me comprometo a
+                    escuchar atentamente tus ideas y visiones, y a utilizar mi experiencia y habilidades para
+                    convertirlas en realidad digital. Cada proyecto es una oportunidad para innovar y crear algo
+                    verdaderamente especial que destaque en el competitivo mundo en línea.</p>
+
+                <p class="centrar-texto"><span>¡Gracias por tomarte el tiempo de conocerme mejor!</span> Estoy
+                    emocionado de trabajar
+                    contigo
+                    y ayudarte a
+                    alcanzar el éxito en línea.</p>
+            </div>
+
+        </div> <!-- FIN GRID-->
+
+
+    </main>
+
+    <section class="section-call contenedor">
+
+        <p class="section-call__parrafo">¿Listo para llevar tu presencia en línea al siguiente nivel? ¡Permíteme
+            ayudarte! Contáctame hoy mismo para discutir cómo puedo ayudarte a alcanzar tus metas digitales. ¡Espero con
+            ansias trabajar contigo!</p>
+        <h4 class="section-call__titulo">¿Hablamos?</h4>
+        <a href="https://wa.me/573164643702" class="boton boton--primario" target="_blank">Si, quiero charlar</a>
+
+    </section>
+
+
+    <footer class="footer contenedor">
+
+        <div class="footer__logo">
+            <a href="index.html">
+                <img class="footer__logo--img" src="img/Logotipo.png" alt="logotipo CJ ByteCraft">
+            </a>
+        </div>
+
+        <div class="footer__copy">
+            <p>© Todos los derechos reservador | <a class="footer__copy--link" target="_blank"
+                    href="https://www.linkedin.com/in/cjap16/"> Powered By Cristian Avila</a></p>
+
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/sobreMi.js"></script>
+
+</body>
+
+</html>

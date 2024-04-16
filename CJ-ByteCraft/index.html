@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <meta name="description" content="Desarrollo Web en Santa Marta">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <section class="contenedor-header">
+        <header class="header">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/isotipo.png" alt="logo CJ ByteCraft" class="logo__img">
+                </a>
+            </div>
+
+            <div class="contenedor-menu">
+                <nav class="menu">
+                    <a href="index.html" class="menu__enlace enlace--activo">Inicio</a>
+                    <a href="sobre-mi.html" class="menu__enlace">Sobre Mi</a>
+                    <a href="servicios.html" class="menu__enlace">Servicios</a>
+                    <a href="portafolio.html" class="menu__enlace">Portafolio</a>
+                    <a href="contacto.html" class="menu__enlace">Contacto</a>
+                </nav>
+                <button id="btn-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="40"
+                        height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 6l16 0" />
+                        <path d="M4 12l16 0" />
+                        <path d="M4 18l16 0" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Pop-up de menú -->
+            <div id="popup-menu" class="popup-menu">
+                <div class="popup-menu__contenido">
+
+                    <button id="btn-cerrar"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-x" width="40" height="40" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="#131313" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M18 6l-12 12" />
+                            <path d="M6 6l12 12" />
+                        </svg></button>
+                    <h4 class="menu__titulo">Menú</h4>
+                    <nav class="menu-popup">
+                        <a href="index.html" class="menu__enlace">Inicio</a>
+                        <a href="sobre-mi.html" class="menu__enlace">Sobre Mi</a>
+                        <a href="servicios.html" class="menu__enlace">Servicios</a>
+                        <a href="portafolio.html" class="menu__enlace">Portafolio</a>
+                        <a href="contacto.html" class="menu__enlace">Contacto</a>
+                    </nav>
+                </div>
+            </div>
+
+
+
+        </header>
+
+    </section> <!-- Fin Header -->
+
+    <section class="hero">
+        <div class="hero__overlay"></div> <!-- Capa de fondo -->
+
+        <div class="hero__contenido contenedor">
+            <div class="hero__text">
+                <h1 class="hero__text--titulo">¡Bienvenido a <span>CJ ByteCraft</span>!</h1>
+
+                <p class="hero__text--parrafo">Transformamos tus ideas en realidad digital. Descubre cómo podemos
+                    potenciar tu presencia en línea.</>
+            </div>
+
+            <div class="hero__boton">
+                <a class="boton boton--primario" href="servicios.html">Saber Más</a>
+            </div>
+        </div> <!-- Fin hero__contenido-->
+    </section> <!-- Fin Hero -->
+
+
+    <main class="contenedor main">
+
+        <div class="contenido-txt">
+            <p class="contenido-txt__parrafo">En <span>CJ ByteCraft</span>, nos especializamos en ofrecerte soluciones
+                digitales a
+                medida que
+                se adaptan a tus necesidades específicas. Desde el diseño creativo hasta el desarrollo técnico y la
+                optimización para motores de búsqueda, estamos aquí para hacer realidad tus objetivos digitales.</p>
+
+            <h2 class="contenido-txt__titulo">Servicios que Ofrecemos</h2>
+        </div>
+
+
+        <div class="section-servicios servicios-grid">
+
+            <div class="div-servicio">
+                <div class="servicio__img"></div>
+
+                <div class="servicio__txt">
+                    <h3>Desarrollo Web</h3>
+
+                    <p>Creamos sitios web a medida que combinan diseño cautivador y funcionalidad excepcional para
+                        impulsar tu negocio en línea.</p>
+                </div>
+
+            </div>
+
+            <div class="div-servicio">
+                <div class="servicio__img"></div>
+
+                <div class="servicio__txt">
+                    <h3>Diseño Web</h3>
+
+                    <p>Nuestros diseñadores expertos transforman tus ideas en diseños visuales sorprendentes que
+                        reflejan la esencia de tu marca.</p>
+                </div>
+            </div>
+
+            <div class="div-servicio">
+                <div class="servicio__img"></div>
+
+                <div class="servicio__txt">
+                    <h3>SEO</h3>
+
+                    <p>Mejoramos tu visibilidad en línea y aumentamos tu posicionamiento en los motores de búsqueda para
+                        que puedas destacar en Santa Marta y más allá.</p>
+                </div>
+            </div>
+        </div> <!-- Fin Servicios-->
+
+
+        <div class="contenido-txt">
+            <h3 class="contenido-txt__titulo">Por qué Elegirnos</h3>
+            <ul class="contenido-txt__list">
+                <li>Experiencia comprobada en el mercado digital de Santa Marta.</li>
+                <li>Enfoque centrado en el cliente para garantizar soluciones personalizadas.</li>
+                <li>Resultados probados en el aumento de la visibilidad y el tráfico en línea.</li>
+                <li>Atención meticulosa a los detalles para garantizar la calidad en cada proyecto.</li>
+                <li>Compromiso con la innovación y la adopción de las últimas tendencias tecnológicas.</li>
+            </ul>
+        </div>
+
+
+    </main>
+
+    <section class="section-portafolio">
+
+        <div class="contenido-txt contenido-txt--portafolio">
+            <h2 class="contenido-txt__titulo">Portafolio Destacado</h2>
+            <p class="contenido-txt__parrafo">Explora algunos de nuestros proyectos destacados para ver cómo hemos
+                ayudado a empresas como la tuya a alcanzar el éxito en línea.</p>
+        </div>
+
+
+        <div class="carrusel">
+
+            <div class="slide slide--uno">
+                <div class="slide__overlay"></div>
+                <div class="slide__text">
+                    <h2 class="slide__texto-titulo">Freelancer</h2>
+                    <a class="boton boton--secundario" href="portafolio.html#freelancer">Ver más</a>
+                </div>
+            </div>
+
+            <div class="slide slide--dos">
+                <div class="slide__overlay"></div>
+                <div class="slide__text">
+                    <h2 class="slide__texto-titulo">Blog de Café</h2>
+                    <a class="boton boton--secundario" href="portafolio.html#blogCafe">Ver más</a>
+                </div>
+            </div>
+
+            <div class="slide slide--tres">
+                <div class="slide__overlay"></div>
+                <div class="slide__text">
+                    <h2 class="slide__texto-titulo">Front-End Store</h2>
+                    <a class="boton boton--secundario" href="portafolio.html#tienda">Ver más</a>
+                </div>
+            </div>
+
+            <div class="slide slide--cuatro">
+                <div class="slide__overlay"></div>
+                <div class="slide__text">
+                    <h2 class="slide__texto-titulo">CJ ByteCraft</h2>
+                    <a class="boton boton--secundario" href="portafolio.html#CJB">Ver más</a>
+                </div>
+            </div>
+
+            <div class="slide slide--cinco">
+                <div class="slide__overlay"></div>
+                <div class="slide__text">
+                    <h2 class="slide__texto-titulo">CJ Garden</h2>
+                    <a class="boton boton--secundario" href="portafolio.html#CJG">Ver más</a>
+                </div>
+            </div>
+
+            <div class="slide slide--seis">
+                <div class="slide__overlay"></div>
+                <div class="slide__text">
+                    <h2 class="slide__texto-titulo">CJ Oceans</h2>
+                    <a class="boton boton--secundario" href="portafolio.html#CJO">Ver más</a>
+                </div>
+            </div>
+
+            <div class="slide slide--siete">
+                <div class="slide__overlay"></div>
+                <div class="slide__text">
+                    <h2 class="slide__texto-titulo">CJ Clinica</h2>
+                    <a class="boton boton--secundario" href="portafolio.html#CJC">Ver más</a>
+                </div>
+            </div>
+
+        </div> <!--Fin Carrusel -->
+
+    </section> <!-- Fin Portafolio -->
+
+    <section class="contacto-call contenedor">
+
+        <div class="call-to-action">
+            <h4>¡Comienza hoy mismo tu viaje hacia el éxito digital con CJ ByteCraft! Contáctanos para discutir cómo
+                podemos
+                ayudarte a alcanzar tus metas en línea.</h4>
+
+            <div class="call__boton">
+                <a class="boton boton--primario" href="https://wa.me/573164643702" target="_blank">Contactanos</a>
+            </div>
+        </div>
+
+        <div class="section-contacto">
+
+            <div class="contacto__txt">
+                <h2 class="contacto__titulo"> Coctactanos</h2>
+                <p class="contacto__parrafo">¿Listo para dar el siguiente paso? Ponte en contacto con nosotros hoy mismo
+                    para empezar a trabajar en tu proyecto digital. Estamos aquí para ayudarte a destacar en Santa Marta
+                    y más allá.</p>
+            </div>
+
+
+            <form class="formulario">
+
+                <div class="campo">
+                    <label class="campo__label" for="nombre">Nombre</label>
+                    <input class="campo__field " type="text" placeholder="Tu nombre" id="nombre">
+                </div>
+
+                <div class="campo">
+                    <label class="campo__label" for="email">E-mail</label>
+                    <input class="campo__field " type="email" placeholder="Tu Email" id="email">
+                </div>
+
+                <div class="campo">
+                    <label class="campo__label" for="telefono">Telefono</label>
+                    <input class="campo__field " type="tel" placeholder="Tu Telefono" id="telefono">
+                </div>
+
+                <div class="campo">
+                    <label class="campo__label" for="mensaje">Mensaje</label>
+                    <textarea class="campo__field campo__field--textarea" type="textarea" id="mensaje"
+                        placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+
+                <div class="campo campo--boton">
+                    <input type="submit" value="Enviar" class="boton boton--primario">
+                </div>
+
+            </form>
+        </div>
+
+
+
+
+    </section>
+
+
+
+    <footer class="footer contenedor">
+
+        <div class="footer__logo">
+            <a href="index.html">
+                <img class="footer__logo--img" src="img/Logotipo.png" alt="logotipo CJ ByteCraft">
+            </a>
+        </div>
+
+        <div class="footer__copy">
+            <p>© Todos los derechos reservador | <a class="footer__copy--link" target="_blank"
+                    href="https://www.linkedin.com/in/cjap16/"> Powered By Cristian Avila</a></p>
+
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/carrusel.js"></script>
+
+</body>
+
+</html>

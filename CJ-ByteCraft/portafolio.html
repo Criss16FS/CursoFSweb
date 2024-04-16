@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <meta name="description" content="Desarrollo Web en Santa Marta">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <section class="contenedor-header">
+        <header class="header">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/isotipo.png" alt="logo CJ ByteCraft" class="logo__img">
+                </a>
+            </div>
+
+            <div class="contenedor-menu">
+                <nav class="menu">
+                    <a href="index.html" class="menu__enlace">Inicio</a>
+                    <a href="sobre-mi.html" class="menu__enlace">Sobre Mi</a>
+                    <a href="servicios.html" class="menu__enlace">Servicios</a>
+                    <a href="portafolio.html" class="menu__enlace enlace--activo">Portafolio</a>
+                    <a href="contacto.html" class="menu__enlace ">Contacto</a>
+                </nav>
+                <button id="btn-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="40"
+                        height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 6l16 0" />
+                        <path d="M4 12l16 0" />
+                        <path d="M4 18l16 0" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Pop-up de menú -->
+            <div id="popup-menu" class="popup-menu">
+                <div class="popup-menu__contenido">
+
+                    <button id="btn-cerrar"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-x" width="40" height="40" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="#131313" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M18 6l-12 12" />
+                            <path d="M6 6l12 12" />
+                        </svg></button>
+                    <h4 class="menu__titulo">Menú</h4>
+                    <nav class="menu-popup">
+                        <a href="index.html" class="menu__enlace">Inicio</a>
+                        <a href="sobre-mi.html" class="menu__enlace">Sobre Mi</a>
+                        <a href="servicios.html" class="menu__enlace">Servicios</a>
+                        <a href="portafolio.html" class="menu__enlace">Portafolio</a>
+                        <a href="contacto.html" class="menu__enlace">Contacto</a>
+                    </nav>
+                </div>
+            </div>
+
+
+
+        </header>
+
+    </section>
+
+    <main class="portafolio contenedor">
+        <h1 class="portafolio__titulo">Explora Nuestro Portafolio</h1>
+
+        <div class="carrusel-portafolio">
+
+            <div class="slide-carrusel" id="freelancer">
+                <div class="slider-carrusel__txt">
+                    <h2 class="slide-carrusel__txt--titulo">Freelancer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae mollitia quisquam animi
+                        dicta
+                        iste itaque accusamus laboriosam deleniti minima debitis dolor, fuga dignissimos dolorum
+                        voluptate atque dolorem similique eius nemo!</p>
+
+                    <a href="https://critianavila-freelancer.netlify.app/"
+                        class="boton boton--primario portafolio__boton" target="_blank">Ir al Sitio web</a>
+
+                </div>
+
+                <div class="slide-carrusel__img">
+                    <img src="img/freelancer.png" alt="">
+                </div>
+            </div>
+
+            <div class="slide-carrusel" id="blogCafe">
+                <div class="slider-carrusel__txt">
+                    <h2 class="slide-carrusel__txt--titulo">Blog de Café</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aspernatur in, ipsum
+                        eius
+                        sed temporibus quia minus voluptates, non, dicta numquam soluta nisi neque. Veritatis
+                        corrupti
+                        magnam saepe nobis hic?</p>
+
+                    <a href="https://frontend-storecj.netlify.app/" class="boton boton--primario portafolio__boton"
+                        target="_blank">Ir al Sitio web</a>
+
+                </div>
+
+                <div class="slide-carrusel__img">
+                    <img src="img/blogCafe.png" alt="">
+                </div>
+            </div>
+
+            <div class="slide-carrusel" id="tienda">
+                <div class="slider-carrusel__txt">
+                    <h2 class="slide-carrusel__txt--titulo">Tienda Front-End</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit pariatur quas animi excepturi!
+                        Enim
+                        officia eaque sed error itaque architecto sapiente delectus dolores, at optio molestiae?
+                        Ullam
+                        sunt tenetur molestiae?</p>
+                    <a href="https://frontend-storecj.netlify.app/" class="boton boton--primario portafolio__boton"
+                        target="_blank">Ir al Sitio web</a>
+
+                </div>
+
+                <div class="slide-carrusel__img">
+                    <img src="img/tienda.png" alt="">
+                </div>
+            </div>
+
+            <div class="slide-carrusel" id="CJB">
+                <div class="slider-carrusel__txt">
+                    <h2 class="slide-carrusel__txt--titulo">CJ ByteCraft</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae mollitia quisquam animi
+                        dicta
+                        iste itaque accusamus laboriosam deleniti minima debitis dolor, fuga dignissimos dolorum
+                        voluptate atque dolorem similique eius nemo!</p>
+
+                    <a href="https://cjbytecraft.com/" class="boton boton--primario portafolio__boton"
+                        target="_blank">Ir al Sitio web</a>
+                </div>
+
+                <div class="slide-carrusel__img">
+                    <img src="img/cj-bytecraft.png" alt="">
+                </div>
+            </div>
+
+            <div class="slide-carrusel" id="CJG">
+                <div class="slider-carrusel__txt">
+                    <h2 class="slide-carrusel__txt--titulo">CJ Garden</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aspernatur in, ipsum
+                        eius
+                        sed temporibus quia minus voluptates, non, dicta numquam soluta nisi neque. Veritatis
+                        corrupti
+                        magnam saepe nobis hic?</p>
+
+                    <a href="https://cjgarden.cjbytecraft.com/" class="boton boton--primario portafolio__boton"
+                        target="_blank">Ir al Sitio web</a>
+                </div>
+
+                <div class="slide-carrusel__img">
+                    <img src="img/Cj-Garden.png" alt="">
+                </div>
+            </div>
+
+            <div class="slide-carrusel" id="CJO">
+                <div class="slider-carrusel__txt">
+                    <h2 class="slide-carrusel__txt--titulo">CJ Oceans</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit pariatur quas animi excepturi!
+                        Enim
+                        officia eaque sed error itaque architecto sapiente delectus dolores, at optio molestiae?
+                        Ullam
+                        sunt tenetur molestiae?</p>
+
+                    <a href="https://cjoceans.cjbytecraft.com/" class="boton boton--primario portafolio__boton"
+                        target="_blank">Ir al Sitio web</a>
+                </div>
+
+                <div class="slide-carrusel__img">
+                    <img src="img/CJ-ocean.png" alt="">
+                </div>
+            </div>
+
+            <div class="slide-carrusel" id="CJC">
+                <div class="slider-carrusel__txt">
+                    <h2 class="slide-carrusel__txt--titulo">CJ Clinica</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit pariatur quas animi excepturi!
+                        Enim
+                        officia eaque sed error itaque architecto sapiente delectus dolores, at optio molestiae?
+                        Ullam
+                        sunt tenetur molestiae?</p>
+
+                    <a href="https://clinica.cjbytecraft.com/" class="boton boton--primario portafolio__boton"
+                        target="_blank">Ir al Sitio web</a>
+                </div>
+
+                <div class="slide-carrusel__img">
+                    <img src="img/Clinica.png" alt="">
+                </div>
+            </div>
+
+
+
+        </div> <!-- Fin carrusel-->
+    </main>
+
+    <section class="section-call contenedor">
+
+        <p class="section-call__parrafo">Si deseas ver más ejemplos de nuestro trabajo, no dudes en contactarnos.
+            Estaremos encantados de mostrarte más proyectos y discutir cómo podemos ayudarte a alcanzar tus objetivos en
+            línea.</p>
+        <h4 class="section-call__titulo">¿Listo para comenzar tu propio proyecto? ¡Contáctanos hoy mismo para discutir
+            tus ideas y necesidades! Estamos aquí para convertir tus visiones en realidad digital.</h4>
+        <a href="https://wa.me/573164643702" class="boton boton--primario" target="_blank">Quiero saber más</a>
+
+    </section>
+
+
+
+
+    <footer class="footer contenedor">
+
+        <div class="footer__logo">
+            <a href="index.html">
+                <img class="footer__logo--img" src="img/Logotipo.png" alt="logotipo CJ ByteCraft">
+            </a>
+        </div>
+
+        <div class="footer__copy">
+            <p>© Todos los derechos reservador | <a class="footer__copy--link" target="_blank"
+                    href="https://www.linkedin.com/in/cjap16/"> Powered By Cristian Avila</a></p>
+
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/portafolio.js"></script>
+
+</body>
+
+</html>
